@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Demo - {{title}}</title>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        <div>
+            <p>This application can be used to lookup current weather information for certain locations.</p>
+ 
+            <p>Navigate to the weather menu, then use the location field to input the name of the location lookup, and once done, click search. </p>
+            <p>If the provided location exists, the current weather information for the provided location will be displayed. </p>
+
+            <p><em>Note that this web application is only to be used for experimental purpose</em></p>
+
+            
+        </div>
+
+    </div>
+    
+   
+    {{>footer}}
+   
+   <script src="./js/app.js"></script>
+</body>
+</html>
